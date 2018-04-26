@@ -1,0 +1,85 @@
+body {
+    background-color: #fff8dc;
+}
+
+header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: plum;
+}
+
+.header-image {
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    border-bottom: 3px double silver;
+}
+
+.input-area {
+    border-bottom: 3px double silver;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#price, #num, #unit, #btn {
+    width: 150px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border:none;
+}
+
+#btn {
+    background: rgb(74, 116, 93);
+    color: plum;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.result-area {
+    text-align: center;
+    height: 150px;
+    background: rgb(74, 116, 93);
+    width: 500px;
+    margin: 30px auto;
+    border-radius: 10px;
+    position: relative;
+    color: plum;
+    font-size: 25px;
+}
+
+#result {
+    float: left;
+    padding: 10px;
+}
+
+#reset {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#btn.disabled {
+    opacity: 0.3;
+}
+
+#reset.hidden {
+    display: none;
+}
